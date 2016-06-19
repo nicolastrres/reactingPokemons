@@ -1,0 +1,68 @@
+.stats{
+  background: #ffe9ac;
+  width: 70%;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.portrait{
+  height: 250px;
+  padding: 30px;
+  box-sizing: border-box;
+  img{
+    height: 100%;
+  }
+}
+.back{
+  padding: 0;
+  text-align: center;
+  margin-top: -50px;
+}
+.name-and-level{
+  font-weight: bold;
+}
+.container{
+  padding-top: 50px;
+}
+label{
+  margin-top: 5px;
+}
+.life-bar{
+  border: 1px solid black;
+  background:#71DF9A;
+  height: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.attacks{
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0 10px 15px 10px;
+  margin-right: 10px;
+
+  div{
+    margin-top: 15px;
+    cursor: pointer;
+  }
+}
+@keyframes bounce {
+  0%, 100% {margin-top: -5px}
+  50% {margin-top: 5px}
+}
+.bounce{
+  animation:  bounce 0.8s infinite;
+}
+
+@keyframes attack {
+  0%, 100% {margin-top: 0px;margin-left: 0px}
+  30%{margin-top: 35px;margin-left: -45px}
+  60% {margin-top: -35px;margin-left: 45px}
+}
+.attack{
+  animation:  attack 0.8s 1;
+}
+
